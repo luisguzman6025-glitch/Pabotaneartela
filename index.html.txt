@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA BOTANEARTELA | Papas Doradas a Granel para Mayoristas</title>
+    <!-- Carga de Tailwind CSS para un diseño moderno y responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+        }
+        /* Definición de Colores de Marca */
+        .color-amarillo { background-color: #FACC15; } /* Amarillo brillante */
+        .color-rosa { background-color: #EC4899; } /* Rosa vibrante */
+        .color-verde { background-color: #10B981; } /* Verde esmeralda */
+        .color-azul { background-color: #3B82F6; } /* Azul eléctrico */
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Sección de Encabezado y Navegación -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            
+            <!-- Logo de PA BOTANEARTELA -->
+            <a href="#inicio" class="flex items-center">
+                <!-- NOTA: Reemplazar el 'src' con la URL de tu logo real (Ej: src="logo.jpeg") -->
+                <img 
+                    src="https://placehold.co/150x50/FFFFFF/000000?text=PA'+BOTANEAR+TELA+Logo" 
+                    alt="Logo PA BOTANEARTELA" 
+                    onerror="this.onerror=null; this.src='https://placehold.co/150x50/FACC15/2D3748?text=PA+BOTANEARTELA'"
+                    class="h-10 md:h-12 w-auto rounded"
+                >
+            </a>
+            
+            <!-- Menú de Mínimo 3 Elementos -->
+            <nav class="hidden md:flex space-x-6 font-semibold">
+                <a href="#productos" class="text-gray-600 hover:text-pink-600 transition duration-300">Productos</a>
+                <a href="#mayoreo" class="text-gray-600 hover:text-pink-600 transition duration-300">Mayoristas</a>
+                <a href="#envios" class="text-gray-600 hover:text-pink-600 transition duration-300">Envíos</a>
+                <a href="#contacto" class="text-gray-600 hover:text-pink-600 transition duration-300">Contacto</a>
+            </nav>
+            <!-- Botón de WhatsApp fijo para desktop -->
+            <a href="https://wa.me/3343739816" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 hidden sm:block">
+                WhatsApp 3343739816
+            </a>
+            <!-- Menú hamburguesa solo para estructura móvil -->
+            <button class="md:hidden text-gray-600 hover:text-pink-600">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección 1: Hero / Introducción (Color Amarillo) -->
+        <section id="inicio" class="color-amarillo py-20 md:py-32 text-center shadow-inner">
+            <div class="container mx-auto px-4">
+                
+                <!-- Placeholder para el logo grande -->
+                <div class="mb-8 flex justify-center">
+                    <!-- NOTA: Reemplazar el 'src' con la URL de tu logo real (Ej: src="logo.jpeg") -->
+                    <img 
+                        src="https://placehold.co/300x150/FFFFFF/000000?text=PA'+BOTANEAR+TELA+Logo" 
+                        alt="Logo PA BOTANEARTELA Grande" 
+                        onerror="this.onerror=null; this.src='https://placehold.co/300x150/FACC15/2D3748?text=PA+BOTANEARTELA'"
+                        class="h-24 md:h-32 w-auto rounded-xl shadow-2xl"
+                    >
+                </div>
+
+                <!-- Textos Diferenciados para Encabezados -->
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4 leading-tight">
+                    El Sabor del <span class="text-pink-600">Mayoreo</span> en Cada Papa
+                </h1>
+                <p class="text-xl md:text-2xl text-white mb-8 font-medium max-w-3xl mx-auto">
+                    Papas Doradas a Granel con Sabores Únicos para tu Negocio. ¡Calidad y Precio Insuperables!
+                </p>
+                <a href="#productos" class="color-rosa hover:bg-pink-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-xl transform hover:scale-105 transition duration-300">
+                    Ver Sabores y Precios
+                </a>
+            </div>
+        </section>
+
+        <!-- Sección 2: Productos y Precios (Venta en línea informativa) -->
+        <section id="productos" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-blue-600">Nuestros Sabores Estrella a Granel</h2>
+
+                <!-- Tarjetas de Sabores con Imágenes de Apoyo (Placeholders) -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+
+                    <!-- Tarjeta Sabor Queso -->
+                    <div class="bg-white rounded-xl shadow-lg border-b-4 border-amber-500 hover:shadow-xl transition duration-300 overflow-hidden">
+                        <img src="https://placehold.co/400x250/FACC15/000000?text=QUESO" alt="Papas Sabor Queso" class="w-full h-40 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-1 text-center flex items-center justify-center text-amber-500">🧀 QUESO</h3>
+                            <p class="text-gray-500 text-center text-sm">El clásico, cremoso y con el sazón perfecto.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta Sabor Adobadas -->
+                    <div class="bg-white rounded-xl shadow-lg border-b-4 border-pink-600 hover:shadow-xl transition duration-300 overflow-hidden">
+                        <img src="https://placehold.co/400x250/EC4899/FFFFFF?text=ADOBADAS" alt="Papas Sabor Adobadas" class="w-full h-40 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-1 text-center flex items-center justify-center text-pink-600">🌶️ ADOBADAS</h3>
+                            <p class="text-gray-500 text-center text-sm">Toque mexicano, picosito y con cuerpo.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta Sabor Habanero -->
+                    <div class="bg-white rounded-xl shadow-lg border-b-4 border-red-600 hover:shadow-xl transition duration-300 overflow-hidden">
+                        <img src="https://placehold.co/400x250/EF4444/FFFFFF?text=HABANERO" alt="Papas Sabor Habanero" class="w-full h-40 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-1 text-center flex items-center justify-center text-red-600">🔥 HABANERO</h3>
+                            <p class="text-gray-500 text-center text-sm">Sabor intenso y picante para valientes.</p>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta Sabor Naturales -->
+                    <div class="bg-white rounded-xl shadow-lg border-b-4 border-green-600 hover:shadow-xl transition duration-300 overflow-hidden">
+                        <img src="https://placehold.co/400x250/10B981/FFFFFF?text=NATURALES" alt="Papas Sabor Naturales" class="w-full h-40 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-1 text-center flex items-center justify-center text-green-600">🥔 NATURALES</h3>
+                            <p class="text-gray-500 text-center text-sm">Simplemente crujientes, listas para sazonar.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabla de Datos HTML para Precios -->
+                <div class="mt-8 text-center max-w-2xl mx-auto">
+                    <h3 class="text-3xl font-bold text-gray-700 mb-6">Lista de Precios a Granel (HTML Table)</h3>
+                    
+                    <div class="overflow-x-auto rounded-xl shadow-2xl">
+                        <table class="min-w-full bg-white text-left text-sm font-light">
+                            <thead class="bg-blue-600 text-white font-medium border-b border-blue-700">
+                                <tr>
+                                    <th scope="col" class="px-6 py-3 text-lg">Sabor</th>
+                                    <th scope="col" class="px-6 py-3 text-lg">Precio por 500 g</th>
+                                    <th scope="col" class="px-6 py-3 text-lg">Precio por 1 Kg</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b transition duration-300 ease-in-out hover:bg-gray-100">
+                                    <td class="whitespace-nowrap px-6 py-4 font-semibold text-amber-600">🧀 Queso</td>
+                                    <td class="whitespace-nowrap px-6 py-4">$99 MXN</td>
+                                    <td class="whitespace-nowrap px-6 py-4 font-bold">$180 MXN</td>
+                                </tr>
+                                <tr class="border-b transition duration-300 ease-in-out hover:bg-gray-100 bg-gray-50">
+                                    <td class="whitespace-nowrap px-6 py-4 font-semibold text-pink-600">🌶️ Adobadas</td>
+                                    <td class="whitespace-nowrap px-6 py-4">$99 MXN</td>
+                                    <td class="whitespace-nowrap px-6 py-4 font-bold">$180 MXN</td>
+                                </tr>
+                                <tr class="border-b transition duration-300 ease-in-out hover:bg-gray-100">
+                                    <td class="whitespace-nowrap px-6 py-4 font-semibold text-red-600">🔥 Habanero</td>
+                                    <td class="whitespace-nowrap px-6 py-4">$99 MXN</td>
+                                    <td class="whitespace-nowrap px-6 py-4 font-bold">$180 MXN</td>
+                                </tr>
+                                <tr class="border-b transition duration-300 ease-in-out hover:bg-gray-100 bg-gray-50">
+                                    <td class="whitespace-nowrap px-6 py-4 font-semibold text-green-600">🥔 Naturales</td>
+                                    <td class="whitespace-nowrap px-6 py-4">$99 MXN</td>
+                                    <td class="whitespace-nowrap px-6 py-4 font-bold">$180 MXN</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Vínculo a Excel -->
+                    <a href="https://ejemplo.com/descarga/lista-precios-pabotaneartela.xlsx" target="_blank" class="mt-8 inline-block color-verde hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg text-md shadow-xl transform hover:scale-105 transition duration-300">
+                        ⬇️ Descargar Lista de Precios Completa (Excel)
+                    </a>
+                </div>
+
+                <!-- Botón de Cotización (Manteniendo WhatsApp) -->
+                <div class="text-center mt-12">
+                    <a href="https://wa.me/3343739816" target="_blank" class="inline-block color-rosa hover:bg-pink-700 text-white font-bold py-3 px-8 rounded-full text-lg shadow-xl transform hover:scale-105 transition duration-300">
+                        ¡Inicia tu Cotización Ahora!
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 3: Enfocado a Mayoristas (Audiencia) (Color Azul) -->
+        <section id="mayoreo" class="color-azul py-16 md:py-24 text-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">Nuestro Cliente Mayorista es...</h2>
+                <p class="text-xl text-center mb-10 max-w-4xl mx-auto opacity-90">
+                    Ofrecemos precios y volumen diseñados específicamente para negocios que buscan calidad y margen de ganancia:
+                </p>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-center">
+                    
+                    <div class="p-4 bg-white/20 rounded-xl hover:bg-white/30 transition duration-300">
+                        <div class="text-4xl mb-2">🏪</div>
+                        <p class="font-semibold">Tiendas de Abarrotes</p>
+                    </div>
+                    <div class="p-4 bg-white/20 rounded-xl hover:bg-white/30 transition duration-300">
+                        <div class="text-4xl mb-2">🍬</div>
+                        <p class="font-semibold">Dulcerías</p>
+                    </div>
+                    <div class="p-4 bg-white/20 rounded-xl hover:bg-white/30 transition duration-300">
+                        <div class="text-4xl mb-2">🌮</div>
+                        <p class="font-semibold">Restauranteros</p>
+                    </div>
+                    <div class="p-4 bg-white/20 rounded-xl hover:bg-white/30 transition duration-300">
+                        <div class="text-4xl mb-2">🎉</div>
+                        <p class="font-semibold">Organizadores de Eventos</p>
+                    </div>
+                    <div class="p-4 bg-white/20 rounded-xl hover:bg-white/30 transition duration-300">
+                        <div class="text-4xl mb-2">🚚</div>
+                        <p class="font-semibold">Emprendedores de Comida</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 4: Ubicación y Envíos -->
+        <section id="envios" class="py-16 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-pink-600">Ubicación y Cobertura</h2>
+                
+                <div class="flex flex-col md:flex-row gap-8">
+                    
+                    <!-- Ubicación Física -->
+                    <div class="w-full md:w-1/2 bg-white p-8 rounded-xl shadow-xl border-b-4 border-amber-500">
+                        <h3 class="text-2xl font-bold mb-4 flex items-center text-amber-500">
+                            <span class="mr-3">📍</span> Recolección
+                        </h3>
+                        <p class="text-lg font-medium mb-2">Visítanos en nuestra bodega:</p>
+                        <p class="text-gray-600">
+                            **Brígido Pérez #2618**, Las Pintas de Arriba, El Salto, Jalisco.
+                        </p>
+                        <p class="mt-4 text-sm italic text-gray-500">
+                            (Atendemos previa cita por WhatsApp para garantizar tu stock.)
+                        </p>
+                    </div>
+                    
+                    <!-- Envíos -->
+                    <div class="w-full md:w-1/2 bg-white p-8 rounded-xl shadow-xl border-b-4 border-green-600">
+                        <h3 class="text-2xl font-bold mb-4 flex items-center text-green-600">
+                            <span class="mr-3">📦</span> Servicio a Domicilio
+                        </h3>
+                        <p class="text-lg font-medium mb-2">Aprovecha nuestro beneficio clave:</p>
+                        <p class="text-gray-800 font-extrabold text-xl">
+                            ¡ENVÍOS SIN COSTO EN TODA LA ZMG!
+                        </p>
+                        <p class="mt-4 text-sm italic text-gray-500">
+                            (Zona Metropolitana de Guadalajara)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 5: Contacto (Color Rosa) -->
+        <section id="contacto" class="py-16 color-rosa text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-4">¡Contáctanos Ahora!</h2>
+                <p class="text-xl mb-10 opacity-90">Estamos listos para surtir tu negocio.</p>
+
+                <div class="flex flex-col md:flex-row justify-center gap-6">
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/3343739816" target="_blank" class="flex flex-col items-center bg-white text-green-600 p-5 rounded-xl shadow-lg w-full md:w-1/4 transform hover:scale-105 transition duration-300">
+                        <div class="text-3xl font-bold">📲 WhatsApp</div>
+                        <p class="text-lg">33 4373 9816</p>
+                    </a>
+
+                    <!-- Correo -->
+                    <a href="mailto:Pabotanertela@gmail.com" class="flex flex-col items-center bg-white text-blue-600 p-5 rounded-xl shadow-lg w-full md:w-1/4 transform hover:scale-105 transition duration-300">
+                        <div class="text-3xl font-bold">📧 Correo</div>
+                        <p class="text-lg">Pabotanertela@gmail.com</p>
+                    </a>
+
+                    <!-- Redes Sociales -->
+                    <a href="https://instagram.com/Pabotaneartela" target="_blank" class="flex flex-col items-center bg-white text-pink-600 p-5 rounded-xl shadow-lg w-full md:w-1/4 transform hover:scale-105 transition duration-300">
+                        <div class="text-3xl font-bold">📸 Síguenos</div>
+                        <p class="text-lg">@Pabotaneartela</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center text-sm">
+            <p>&copy; 2025 PA BOTANEARTELA. Papas Doradas a Granel. | Brígido Pérez #2618, El Salto, Jal.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
